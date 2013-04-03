@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130403212113) do
+ActiveRecord::Schema.define(:version => 20130403220157) do
 
   create_table "cats", :force => true do |t|
     t.string   "name"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20130403212113) do
     t.string   "coat_color"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.date     "birth_date"
   end
 
 end
