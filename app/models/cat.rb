@@ -4,6 +4,7 @@ class Cat < ActiveRecord::Base
     :age,
     :sex,
     :biography,
-    :coat_color
+    :coat_color,
+    :birth_date
   )
 end
