@@ -3,7 +3,7 @@ class CatsController < ApplicationController
     p "THESE ARE THE PARAMS"
     p params
     p "THESE ARE THE CAT PARAMS"
-    params[:cat]
+    p params[:cat]
     
     Cat.create!(params[:cat])
     
